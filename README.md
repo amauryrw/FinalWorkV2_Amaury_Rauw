@@ -1,6 +1,6 @@
 # FinalWorkV2_Amaury_Rauw
 
-# Behind the Bar 🍸 – Interactieve 3D Game voor Bartenders
+# Behind the Bar – Interactieve 3D Game voor Bartenders
 
 **Behind the Bar** is een interactieve 3D-training, gemaakt voor beginnende en gevorderde bartenders, waarin de speler realistische situaties zal moeten aangaan als bartender in een nachtclub. De game combineert storytelling, interactiviteit, beslissingen nemen a.d.h.v. meerkeuzevragen en educatieve panels om het een leerrijke en interactieve ervaring te maken.
 
