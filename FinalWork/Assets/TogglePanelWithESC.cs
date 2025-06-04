@@ -7,11 +7,14 @@ public class TogglePanelWithESC : MonoBehaviour
 
     private bool panelOpenedFromESC = false; 
 
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Debug.Log("ESC pressed");
+            Debug.Log("ESC Check - ControlsEnabled: " + controllerToggle.ControlsEnabled); // 
+
             // Si le panel est inactif on veut l'ouvrir
             if (!panel.activeSelf)
             {

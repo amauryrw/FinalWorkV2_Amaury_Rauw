@@ -11,6 +11,7 @@ public class FungusTrigger : MonoBehaviour
     public GameObject startScreenUI; 
     public Button startButton;
     private bool gameStarted = false;
+    public PlayerControllerToggle playerControllerToggle;
 
     [Header("Camera Setup")]
     public Camera playerCamera;
@@ -86,6 +87,7 @@ public class FungusTrigger : MonoBehaviour
             startScreenUI.SetActive(false);
 
         UnfreezeCamera();
+        
     }
 
     public void StartDialogue()
@@ -158,8 +160,11 @@ public class FungusTrigger : MonoBehaviour
                 cc.enabled = true;
         }
 
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if (playerControllerToggle != null)
+        playerControllerToggle.EnableControls();
+
+    Cursor.lockState = CursorLockMode.Locked;
+    Cursor.visible = false;
     }
 
     void OnTriggerEnter(Collider other)

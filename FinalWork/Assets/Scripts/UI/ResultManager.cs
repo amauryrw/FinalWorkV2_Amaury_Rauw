@@ -32,6 +32,8 @@ public class ResultManager : MonoBehaviour
             resultText.text = "Proficiat! Je bent geslaagd met " + badAnswers + " foute keuzes!";
             retryButton.gameObject.SetActive(false);
             unlockButton.gameObject.SetActive(true);
+            PlayerPrefs.SetInt("Scenario1Completed", 1);
+            PlayerPrefs.Save();
         }
     }
 

@@ -82,6 +82,7 @@
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
     <Compile Include="Assets\Ink\Demos\Basic Demo\Scripts\QuitGameOnKeypress.cs" />
+    <Compile Include="Assets\ScenarioVisualManager.cs" />
     <Compile Include="Assets\RotateObject.cs" />
     <Compile Include="Assets\Scripts\Player\CameraRotateSmooth.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
@@ -118,7 +119,9 @@
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
     <Compile Include="Assets\Ink\Demos\Basic Demo\Scripts\BasicInkExample.cs" />
     <Compile Include="Assets\Scripts\Dialogues\ConversationStarter.cs" />
+    <Compile Include="Assets\RotateBottle.cs" />
     <Compile Include="Assets\MainMenu\ChangeScene.cs" />
+    <Compile Include="Assets\PlayerPrefsReset\PlayerPrefsReset.cs" />
     <Compile Include="Assets\CameraMover.cs" />
     <Compile Include="Assets\Scripts\Scene\LightColorChanger.cs" />
     <Compile Include="Assets\PlayerControllerToggle.cs" />

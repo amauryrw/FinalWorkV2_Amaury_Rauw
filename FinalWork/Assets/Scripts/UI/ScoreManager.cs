@@ -3,21 +3,21 @@ using System.Collections.Generic;
 
 public class ScoreManager : MonoBehaviour
 {
-    public static ScoreManager instance; // Singleton pour accès facile depuis Fungus
+    public static ScoreManager instance;
 
     private int goodResponses = 0;
     private int badResponses = 0;
 
-    private List<string> badResponsesList = new List<string>(); // 🆕 Mémoriser les erreurs !
+    private List<string> badResponsesList = new List<string>(); 
 
 
     private void Awake()
     {
-        // S'assurer qu'on a une seule instance
+      
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); // Persiste entre scènes si besoin
+            DontDestroyOnLoad(gameObject); 
         }
         else
         {
@@ -34,7 +34,6 @@ public class ScoreManager : MonoBehaviour
     public void AddBadResponse()
     {
         badResponses++;
-        //badResponsesList.Add(wrongAnswer); // 🆕 On stocke l'erreur exacte
         Debug.Log("Mauvaise réponse. Total : " + badResponses);
     }
 
