@@ -69,6 +69,30 @@ Wanneer de speler deze vindt, geven ze extra informatie en een QR-code die hem n
 
 ---
 
+## Referentie Assets/Code
+
+**Omgeving**:
+Nightclub: https://assetstore.unity.com/packages/3d/environments/nightclub-cocktail-bar-176432
+
+**3D models**:
+Cannabis in a bag: https://skfb.ly/oBCGY
+Ketamine Bottle: https://skfb.ly/oST6v
+Broken bottle: https://skfb.ly/6WOED
+
+**Audio**:
+Wrong answer audio: https://pixabay.com/sound-effects/wrong-47985/
+Background crowd audio: https://pixabay.com/sound-effects/club-crowd-319310/
+Background club music: https://pixabay.com/sound-effects/club-music-loop-74178/
+
+**Characters**:
+https://www.mixamo.com/#/?page=1&type=Character
+
+**Animations**:
+https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack
+https://assetstore.unity.com/packages/3d/animations/mega-animations-pack-162341
+
+Bartender cartoon afbeelding & Stukken code (Error handeling): https://chatgpt.com
+
 ## License
 
 ## Dit project is uitsluitend bedoeld voor educatieve doeleinden. Herverdeling is niet toegestaan zonder toestemming.
