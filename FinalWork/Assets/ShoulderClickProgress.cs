@@ -21,7 +21,7 @@ public class ShoulderClickProgress : MonoBehaviour
             progressCircle.gameObject.SetActive(false);
 
         if (Arrow != null)
-            Arrow.SetActive(false); // Cache l'arrow au début
+            Arrow.SetActive(false);
     }
 
     void Update()
@@ -38,7 +38,9 @@ public class ShoulderClickProgress : MonoBehaviour
                     progressCircle.gameObject.SetActive(false);
 
                 if (Arrow != null)
-                    Arrow.SetActive(false); // Cache l’image et stoppe l’anim automatiquement
+                    Arrow.SetActive(false);
+                    Arrow.GetComponent<Image>().enabled = false;
+                    Arrow.GetComponent<Animator>().enabled = false;
 
                 if (instructionText != null)
                     instructionText.SetActive(false);

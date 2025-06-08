@@ -68,6 +68,7 @@
     <Compile Include="Assets\PickupObject.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
     <Compile Include="Assets\StapStep5Button.cs" />
+    <Compile Include="Assets\BounceEffect.cs" />
     <Compile Include="Assets\NightClub\Scripts\RotatingDiscoLight.cs" />
     <Compile Include="Assets\DropZone.cs" />
     <Compile Include="Assets\WeedPanelCloser.cs" />
@@ -108,6 +109,7 @@
     <Compile Include="Assets\WeedInteraction.cs" />
     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
     <Compile Include="Assets\Scripts\UI\ResultManager.cs" />
+    <Compile Include="Assets\ToggleCollider.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
     <Compile Include="Assets\DialogueEditor\Example\ExampleInputManager.cs" />
     <Compile Include="Assets\Scripts\Player\playerMovementScript.cs" />
