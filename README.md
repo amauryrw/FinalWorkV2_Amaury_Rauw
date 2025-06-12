@@ -54,8 +54,8 @@ De speler interageert met de omgeving via beweging, muisacties, dialogen met NPC
 
 ## Verstopte objecten
 
-In beide scenario's zijn verborgen objecten verspreid over de omgeving.
-Wanneer de speler deze vindt, geven ze extra informatie en een QR-code die hem naar een officiële website leidt waar hij meer over het onderwerp kan leren.
+In beide scenario's is er een verborgen object te vinden in de omgeving.
+Wanneer de speler deze vindt, geven ze extra informatie en een QR-code die hem naar een officiële website of artikel leidt waar hij meer over het onderwerp kan leren.
 
 ---
 
@@ -66,6 +66,7 @@ Wanneer de speler deze vindt, geven ze extra informatie en een QR-code die hem n
 - Unity Animator
 - Fungus (voor het dialoog systeem)
 - Custom UI/UX elementen
+- Unity Asset store (Nightclub)
 
 ---
 
