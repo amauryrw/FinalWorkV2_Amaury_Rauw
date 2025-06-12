@@ -45,6 +45,6 @@ public class ResultManager : MonoBehaviour
     public void UnlockNextScenario()
     {
         Debug.Log("Next scenario unlocked !");
-        SceneManager.LoadScene("Scenario2"); // Remplace "Scenario2" par le vrai nom exact de ta scène
+        SceneManager.LoadScene("Scenario2"); 
     }
 }
