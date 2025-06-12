@@ -97,7 +97,9 @@ Wanneer de speler deze vindt, geven ze extra informatie en een QR-code die hem n
 - https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack
 - https://assetstore.unity.com/packages/3d/animations/mega-animations-pack-162341
 
-- **Bartender cartoon afbeelding & Stukken code (Error handeling)**: https://chatgpt.com
+**Bartender cartoon afbeelding & Stukken code (Error handeling)**:
+
+- https://chatgpt.com
 
 ## License
 
